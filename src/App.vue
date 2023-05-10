@@ -1,14 +1,14 @@
 <template>
-  <h1 class="text-green-500 text-2xl font-bold">Hello My Name Is {{ name }}</h1>
+  <Binding />
 </template>
 
 <script>
+import Binding from './views/Binding.vue';
+
 export default {
   name: 'App',
-  data() {
-    return {
-      name: 'Thomas Alberto',
-    };
+  components: {
+    Binding,
   },
 };
 </script>
