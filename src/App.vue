@@ -1,3 +1,14 @@
 <template>
-  <h1 class="text-blue-400 text-2xl font-bold">Hello World</h1>
+  <h1 class="text-green-500 text-2xl font-bold">Hello My Name Is {{ name }}</h1>
 </template>
+
+<script>
+export default {
+  name: 'App',
+  data() {
+    return {
+      name: 'Thomas Alberto',
+    };
+  },
+};
+</script>
