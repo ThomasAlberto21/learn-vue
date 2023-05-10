@@ -1,3 +1,6 @@
+<!-- Todo -->
+<!-- Binding Text di Vue.js adalah salah satu jenis binding yang digunakan untuk menampilkan nilai dari objek Vue ke dalam teks di dalam elemen HTML. -->
+
 <template>
   <!-- Cara 1 menggunakan double curly braces -->
   <h1 class="text-green-500 text-2xl font-semibold">
