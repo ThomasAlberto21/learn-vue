@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Binding from './views/Binding.vue';
+import Binding from './views/1.Binding.vue';
 
 export default {
   name: 'App',
