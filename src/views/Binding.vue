@@ -10,10 +10,11 @@
 import BindingText from '../components/1.Binding/1.BindingText.vue';
 import BindingHtml from '../components/1.Binding/2.BindingHtml.vue';
 
+
 export default {
   components: {
     BindingText,
-    BindingHtml,
+    BindingHtml
   },
 };
 </script>
