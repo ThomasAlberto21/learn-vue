@@ -3,8 +3,8 @@
 
 <template>
   <!-- <BindingText /> -->
-  <BindingHtml />
-  <!-- <BindingAttributes /> -->
+  <!-- <BindingHtml /> -->
+  <BindingAttributes />
 </template>
 
 <script>
