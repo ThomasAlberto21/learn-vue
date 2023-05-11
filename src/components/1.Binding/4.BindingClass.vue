@@ -20,11 +20,6 @@
     <h1 v-bind:class="[textSemibold, textGreen, text2xl]">
       Penggunaan v-bind:class cara 4
     </h1>
-    \
-
-    <h1 v-bind:class="[isPromoted && promoted, isSoldout ? soldOut : promoted]">
-      Penggunaan v-bind:class cara 5
-    </h1>
   </div>
 </template>
 
