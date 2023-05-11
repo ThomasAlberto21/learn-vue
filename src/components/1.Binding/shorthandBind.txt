@@ -1,0 +1,9 @@
+SHORHAND BINDING IN VUE JS 3
+
+v-bind:id => :id
+v-bind:class => :class
+v-bind:style => :style
+v-bind:disabled => :disabled
+
+
+DAN MASIH BANYAK LAGI BINDING DI VUE JS3
