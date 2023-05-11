@@ -5,7 +5,8 @@
   <!-- <BindingText /> -->
   <!-- <BindingHtml /> -->
   <!-- <BindingAttributes /> -->
-  <BindingClass />
+  <!-- <BindingClass /> -->
+  <BindingStyle />
 </template>
 
 <script>
@@ -13,6 +14,7 @@ import BindingText from '../components/1.Binding/1.BindingText.vue';
 import BindingHtml from '../components/1.Binding/2.BindingHtml.vue';
 import BindingAttributes from '../components/1.Binding/3.BindingAttributes.vue';
 import BindingClass from '../components/1.Binding/4.BindingClass.vue';
+import BindingStyle from '../components/1.Binding/5.BindingStyle.vue';
 
 export default {
   components: {
@@ -20,6 +22,7 @@ export default {
     BindingHtml,
     BindingAttributes,
     BindingClass,
+    BindingStyle,
   },
 };
 </script>
