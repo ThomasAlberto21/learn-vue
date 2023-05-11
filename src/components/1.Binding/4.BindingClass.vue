@@ -3,10 +3,18 @@
 
 <template>
   <div>
-    <h1 v-bind:class="status">Cara 1</h1>
+    <!-- Memasukkan class yang sudah disediakan di komponen Vue dengan cara v-bind:class-->
+    <h1 v-bind:class="status">Penggunaan v-bind:class cara 1</h1>
 
-    <!-- Jika isPromoted true maka jalankan class promoted dan jika isPromoted false maka jangan jalankan isPromoted nya -->
-    <h2 v-bind:class="isPromoted && 'promoted'">Cara 2</h2>
+    <!-- Jika isPromoted true maka jalankan komponen promoted dan jika isPromoted false maka jangan jalankan komponen promoted nya -->
+    <h1 v-bind:class="isPromoted && promoted">
+      Penggunaan v-bind:class cara 2
+    </h1>
+
+    <!-- Jika isSoldout bernilai true maka jalankan komponen soldOut dan jika isSoldout bernilai false maka jalankan komponen promoted nya -->
+    <h1 v-bind:class="isSoldout ? soldOut : promoted">
+      Penggunaan v-bind:class cara 3
+    </h1>
   </div>
 </template>
 
@@ -14,16 +22,14 @@
 export default {
   data() {
     return {
-      status: 'text-green-400 font-bold text-2xl',
+      status: 'text-green-400 font-semibold text-2xl',
       isPromoted: true,
+      promoted: 'text-green-400 font-semibold text-2xl',
+      isSoldout: true,
+      soldOut: 'text-red-600 font-semibold text-2xl',
     };
   },
 };
 </script>
 
-<style>
-.promoted {
-  color: aqua;
-  font-size: x-large;
-}
-</style>
+<style></style>
