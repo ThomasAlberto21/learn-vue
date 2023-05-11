@@ -15,6 +15,16 @@
     <h1 v-bind:class="isSoldout ? soldOut : promoted">
       Penggunaan v-bind:class cara 3
     </h1>
+
+    <!-- Fungsi menggunakan array dalam v-bind:class bertujuan untuk menggabungkan class yang kita miliki di komponen Vue menjadi satu di dalam HTML nya -->
+    <h1 v-bind:class="[textSemibold, textGreen, text2xl]">
+      Penggunaan v-bind:class cara 4
+    </h1>
+    \
+
+    <h1 v-bind:class="[isPromoted && promoted, isSoldout ? soldOut : promoted]">
+      Penggunaan v-bind:class cara 5
+    </h1>
   </div>
 </template>
 
@@ -25,8 +35,11 @@ export default {
       status: 'text-green-400 font-semibold text-2xl',
       isPromoted: true,
       promoted: 'text-green-400 font-semibold text-2xl',
-      isSoldout: true,
+      isSoldout: false,
       soldOut: 'text-red-600 font-semibold text-2xl',
+      textSemibold: 'font-semibold',
+      text2xl: 'text-2xl',
+      textGreen: 'text-green-400',
     };
   },
 };
