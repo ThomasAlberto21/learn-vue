@@ -4,19 +4,22 @@
 <template>
   <!-- <BindingText /> -->
   <!-- <BindingHtml /> -->
-  <BindingAttributes />
+  <!-- <BindingAttributes /> -->
+  <BindingClass />
 </template>
 
 <script>
 import BindingText from '../components/1.Binding/1.BindingText.vue';
 import BindingHtml from '../components/1.Binding/2.BindingHtml.vue';
 import BindingAttributes from '../components/1.Binding/3.BindingAttributes.vue';
+import BindingClass from '../components/1.Binding/4.BindingClass.vue';
 
 export default {
   components: {
     BindingText,
     BindingHtml,
     BindingAttributes,
+    BindingClass,
   },
 };
 </script>
