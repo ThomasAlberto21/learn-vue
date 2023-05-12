@@ -3,15 +3,19 @@
 
 <template>
   <div>
-    <ListRendering />
+    <!-- <ListRendering /> -->
+    <ListAndKey />
   </div>
 </template>
 
 <script>
 import ListRendering from '../components/3.List/1.ListRendering.vue';
+import ListAndKey from '../components/3.List/2.ListAndKey.vue';
+
 export default {
   components: {
     ListRendering,
+    ListAndKey,
   },
 };
 </script>
