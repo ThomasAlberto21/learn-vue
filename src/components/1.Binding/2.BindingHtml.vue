@@ -11,7 +11,6 @@
 
 <script>
 export default {
-  name: 'App',
   data() {
     return {
       name: '<b> Thomas Alberto </b>', // Binding HTML
