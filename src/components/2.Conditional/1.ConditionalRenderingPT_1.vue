@@ -1,7 +1,5 @@
-<!-- Todo -->
-<!-- Conditional rendering di Vue.js adalah teknik untuk menampilkan atau menyembunyikan elemen HTML atau komponen Vue.js berdasarkan kondisi tertentu. Dalam Vue.js, kondisi tersebut bisa diatur melalui penggunaan direktif v-if atau v-show. -->
-
 <template>
+  <!-- Menggunakan conditional rendering if else if dan else -->
   <div>
     <h1 v-if="number === 0" class="text-green-400 font-semibold text-2xl">
       This is number 0
@@ -41,5 +39,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped></style>
