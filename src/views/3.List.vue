@@ -4,18 +4,21 @@
 <template>
   <div>
     <!-- <ListRendering /> -->
-    <ListAndKey />
+    <!-- <ListAndKey /> -->
+    <ConditionalList />
   </div>
 </template>
 
 <script>
 import ListRendering from '../components/3.List/1.ListRendering.vue';
 import ListAndKey from '../components/3.List/2.ListAndKey.vue';
+import ConditionalList from '../components/3.List/3.ConditionalList.vue';
 
 export default {
   components: {
     ListRendering,
     ListAndKey,
+    ConditionalList,
   },
 };
 </script>
