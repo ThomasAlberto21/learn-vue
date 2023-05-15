@@ -1,3 +1,6 @@
+<!-- Todo -->
+<!-- Dalam Vue.js, v-on adalah sebuah direktif (directive) yang digunakan untuk mengikat (bind) event listener ke elemen HTML. Direktif ini memungkinkan Anda untuk menangani event yang dihasilkan oleh pengguna, seperti click, input, keydown, dan lainnya. -->
+
 <template>
   <div>
     <EventHandlingPt_1 />

@@ -1,3 +1,6 @@
+<!-- Todo -->
+<!-- Dalam Vue.js, method (metode) adalah blok kode yang didefinisikan dalam komponen Vue yang digunakan untuk menangani logika bisnis, tindakan, atau fungsi-fungsi lainnya. Metode-metode ini dapat diikat (bind) ke event atau digunakan dalam ekspresi di dalam template. -->
+
 <template>
   <div>
     <Methods />
