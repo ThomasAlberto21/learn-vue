@@ -65,6 +65,7 @@
       <label for="hobby" class="text-green-500 font-semibold text-2xl block"
         >Skill</label
       >
+      <!-- Multiple digunakan untuk mengizinkan pengguna memilih beberapa opsi sekaligus.  -->
       <select
         name=""
         id="skill"
